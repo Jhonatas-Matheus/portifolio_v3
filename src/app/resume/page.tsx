@@ -181,13 +181,11 @@ export default function ResumePage() {
                 Curitiba, PR
               </h4>
               <p>
-                Desenvolvimento de aplicação web utilizando o Framework Angular
-                2+ (NgRx - Typescript - Sass);
-              </p>
-              <p>Configuração de VPS e deploy de aplicação;</p>
-              <p>
-                Adaptação e correção de bugs de back-end utilizando NodeJS
-                (Webhooks, SocketIO, Telegram API).
+                Curso de 2.000 horas de Desenvolvimento Full Stack que abrange
+                tecnologias Front End e Back End além de soft skills necessários
+                para o mercado de trabalho. Entre as linguagens e tecnologias
+                aprendidas, estão HTML5, CSS3, JavaScript (ES6+), React, Redux,
+                Python (Django e Flask) e SQL."
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -209,13 +207,29 @@ export default function ResumePage() {
                 Mossoró, RN
               </h4>
               <p>
-                Desenvolvimento de aplicação web utilizando o Framework Angular
-                2+ (NgRx - Typescript - Sass);
+                A formação de bacharelado em ciência e tecnologia envolve uma
+                ampla variedade de conhecimentos que abrangem desde a
+                matemática, física e química até a programação, engenharia de
+                software e ciência da computação. Os alunos podem se aprofundar
+                em áreas específicas de tecnologia, como inteligência
+                artificial, aprendizado de máquina, segurança da informação,
+                redes de computadores e sistemas operacionais. Após a conclusão
+                do bacharelado o aluno pode escolher qual engenharia quer cursar
+                em seu segundo ciclo.
               </p>
-              <p>Configuração de VPS e deploy de aplicação;</p>
               <p>
-                Adaptação e correção de bugs de back-end utilizando NodeJS
-                (Webhooks, SocketIO, Telegram API).
+                Ao longo do curso, os estudantes adquirem habilidades na
+                resolução de problemas complexos, raciocínio lógico e análise
+                crítica. Eles também desenvolvem habilidades de comunicação,
+                trabalho em equipe e liderança, que são cruciais no mundo
+                profissional.
+              </p>
+              <p>
+                Outros tópicos importantes incluem gestão de projetos,
+                empreendedorismo, ética em tecnologia e responsabilidade social.
+                Através do aprendizado prático e projetos práticos, os alunos
+                são expostos a situações do mundo real e têm a oportunidade de
+                aplicar suas habilidades e conhecimentos em soluções práticas.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
