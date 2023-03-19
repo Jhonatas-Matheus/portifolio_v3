@@ -185,7 +185,7 @@ export default function ResumePage() {
                 tecnologias Front End e Back End além de soft skills necessários
                 para o mercado de trabalho. Entre as linguagens e tecnologias
                 aprendidas, estão HTML5, CSS3, JavaScript (ES6+), React, Redux,
-                Python (Django e Flask) e SQL."
+                Python (Django e Flask) e SQL.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
