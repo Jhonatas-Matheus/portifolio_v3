@@ -37,7 +37,7 @@ export default function HomePage() {
         element: "",
       }}
     >
-      Desenvolvedor Full-Stack Teste
+      Desenvolvedor Full-Stack Teste Deploy
     </Typist>
     <ul className="social-links">
             <li>
