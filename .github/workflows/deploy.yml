@@ -45,18 +45,3 @@ jobs:
           REMOTE_PORT: ${{secrets.REMOTE_PORT}}
           TARGET: ${{ secrets.REMOTE_TARGET }}
           EXCLUDE: "/dist/, /node_modules/"
-    # - name: Install npm dependencies
-    #   run: npm install --force
-    # - name: Run build task
-    #   run: npm run build --if-present
-    # - name: Configure SSH key
-    #   run: |
-    #     echo "$PRIVATE_KEY" > key.pem
-    #     chmod 600 key.pem
-    #     ssh-keygen -y -f key.pem > key.pub
-    - name: Start PM2 Application
-      run: |
-        ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "mkdir testando_comando"
-
- 
-#       ssh -i ${{ secrets.SSH_PRIVATE_KEY }} ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} -p ${{ secrets.REMOTE_PORT }} "pm2 start npm --name portfolio -- start" 

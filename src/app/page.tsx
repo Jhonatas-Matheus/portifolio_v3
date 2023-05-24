@@ -37,7 +37,7 @@ export default function HomePage() {
         element: "",
       }}
     >
-      Desenvolvedor Full-Stack Testando o Watch do PM2
+      Desenvolvedor Full-Stack
     </Typist>
     <ul className="social-links">
             <li>

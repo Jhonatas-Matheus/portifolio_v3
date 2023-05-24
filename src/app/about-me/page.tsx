@@ -120,7 +120,7 @@ export default function AboutPage() {
           </div>
           <div className="work-type">
             <MdManageAccounts size={50} />
-            <h3>Sites de Gestão</h3>
+            <h3>Sites de Gestão (ERP)</h3>
             <p>
               Trabalho com a criação de sites para gestão de empresas.
               Utilizando as mais recentes tecnologias, crio plataformas
