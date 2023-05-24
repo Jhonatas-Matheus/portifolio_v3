@@ -55,9 +55,8 @@ jobs:
     #     chmod 600 key.pem
     #     ssh-keygen -y -f key.pem > key.pub
     # - name: Start PM2 Application
-    #   run: |
-    #     ssh -i key.pem ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} -p ${{ secrets.REMOTE_PORT }} "mkdir testando_comando"
-    #     ssh -i key.pem ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} -p ${{ secrets.REMOTE_PORT }} "npm install"
+      run: |
+        ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "mkdir testando_comando"
 
  
 #       ssh -i ${{ secrets.SSH_PRIVATE_KEY }} ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} -p ${{ secrets.REMOTE_PORT }} "pm2 start npm --name portfolio -- start" 
