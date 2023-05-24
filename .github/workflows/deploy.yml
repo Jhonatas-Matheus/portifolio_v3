@@ -54,7 +54,7 @@ jobs:
     #     echo "$PRIVATE_KEY" > key.pem
     #     chmod 600 key.pem
     #     ssh-keygen -y -f key.pem > key.pub
-    # - name: Start PM2 Application
+    - name: Start PM2 Application
       run: |
         ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "mkdir testando_comando"
 
