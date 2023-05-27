@@ -27,4 +27,4 @@ jobs:
     - name: Pull Changes Of Remote Repository
       run: git pull origin main
     - name: Build and Initialize
-      run: "npm install && npm run build && npm start"
+      run: "ls && npm install && npm run build && npm start"
