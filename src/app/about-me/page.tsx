@@ -34,7 +34,6 @@ import { Animated } from "react-animated-css";
 import { useContext, useEffect, useState } from "react";
 import { SectionContext } from "../../context/section_context";
 import { AnimatePresence } from "framer-motion";
-// import { CarouselWorksTypes } from "../carousel_works_type";
 
 
 export default function AboutPage() {
