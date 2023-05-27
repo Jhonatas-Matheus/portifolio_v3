@@ -78,7 +78,7 @@ export const StyledDashboard = styled(motion.div)`
     width: 100%;
     height: calc(100vh - 4rem);
     &::-webkit-scrollbar {
-      width: 5px; /* width of the entire scrollbar */
+      width: 5px; /* width of the entire scrollbar a */
     }
 
     &::-webkit-scrollbar-track {
