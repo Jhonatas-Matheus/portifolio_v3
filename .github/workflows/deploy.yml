@@ -1,24 +1,3 @@
-# name: Deploy to VPS
-
-# on: [push]
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest  
-#     steps:
-#         uses: actions/checkout@v2
-#       - name: Checkout code
-#       - name: Set up SSH
-#         uses: easingthemes/ssh-deploy@main
-#         env:
-#           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-#           ARGS: "-rltgoDzvO"
-#           SOURCE: "src/"
-#           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-#           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-#           REMOTE_PORT: ${{secrets.REMOTE_PORT}}
-#           TARGET: ${{ secrets.REMOTE_TARGET }}
-#           EXCLUDE: "/dist/, /node_modules/"
 name: Node CI
 
 on: [push]
@@ -26,14 +5,14 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - uses: actions/checkout@v1
-    - name: Install Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '16.x'
+#     - name: Install Node.js
+#       uses: actions/setup-node@v1
+#       with:
+#         node-version: '16.x'
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@main
       env:
