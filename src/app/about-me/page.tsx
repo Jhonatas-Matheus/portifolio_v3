@@ -104,7 +104,7 @@ export default function AboutPage() {
           </div>
           <div className="work-type">
             <MdEditDocument size={50} />
-            <h3>Landing Page</h3>
+            <h3>Websites com CMS</h3>
             <p>
               Ao longo da minha carreira como desenvolvedor também já desenvolvi
               sites com CMS (Sistema de Gerenciamento de Conteúdo), permitindo
