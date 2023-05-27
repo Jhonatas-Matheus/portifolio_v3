@@ -27,4 +27,4 @@ jobs:
     - name: Pull Changes Of Remote Repository
       run: git pull origin main
     - name: Build and Initialize
-      run: "cd teste && npm install && npm run build && npm start"
+      run: "cd portifolio_v3 && npm install && npm run build && npm start"
