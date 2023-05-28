@@ -49,56 +49,5 @@
         ],
         "projectImg": "/techs-hub.png",
         "projectLink": "https://techs-hub.vercel.app/"
-    },
-    {
-        "projectTitle": "Party Link",
-        "projectDescription": "Projeto feito em equipe composta por 5 devs onde o problema que propomos resolver era a dificuldade em encontrar comapnheiros para fazer missões coletivas em equipe missões essas que são de grande valor para os jogadores do jogo.",
-        "projectDescriptionEn": "Project made in a team composed of 5 devs where the problem we propose to solve was the difficulty in finding companions to do collective team missions, missions that are of great value to the game's players.",
-        "projeectTechs": [
-            "NextJS",
-            "TailwindCSS",
-            "Firebase"
-        ],
-        "projectImg": "/party-link.png",
-        "projectLink": "https://party-link-2g7w9wplc-party-link.vercel.app/",
-        "solo": false
-    },
-    {
-        "projectTitle": "Hamburgeria",
-        "projectDescription": "Projeto feito com a proposta de simular um menu online onde poder ser feito pedidos de um restaurante com tema de hamburgeria",
-        "projectDescriptionEn": "Project made with the proposal to simulate an online menu where orders can be made from a hamburger-themed restaurant",
-        "projeectTechs": [
-            "ReactJS"
-        ],
-        "projectLink": "https://kenzie-hamburgeria-b14edxer2-jhonatas-matheus.vercel.app/",
-        "projectImg": "/hamburgeria.png",
-        "solo": true
-    },
-    {
-        "projectTitle": "Miniblog",
-        "projectDescription": "Projeto feito com a proposta de simular uma pequena rede social onde as pessoas podem compartilhar imagens que acham bonitas.",
-        "projectDescriptionEn": "Project made with the proposal to simulate a small social network where people can share images they find beautiful.",
-        "projeectTechs": [
-            "Typescript",
-            "Styled-Components",
-            "Firebase"
-        ],
-        "projectImg": "/miniblog.png",
-        "projectLink": "https://miniblog-with-typescript.vercel.app/"
-    },
-    {
-        "projectTitle": "TechsHub",
-        "projectDescription": "Projeto feito com intuito de simular um portifólio de tecnologias consumindo api externa com axios.",
-        "projectDescriptionEn": "Project made in order to simulate a portfolio of technologies consuming external api with axios.",
-        "projeectTechs": [
-            "ReactJS",
-            "Typescript",
-            "Styled-Components",
-            "Axios",
-            "React Router Dom",
-            "Context API"
-        ],
-        "projectImg": "/techs-hub.png",
-        "projectLink": "https://techs-hub.vercel.app/"
     }
 ]

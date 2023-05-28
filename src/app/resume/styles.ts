@@ -6,11 +6,17 @@ export const StyledResumeSection = styled(motion.div)`
 position: absolute;
 top: 0;
 left: 0;
+padding: 60px 0;
 @media (min-width: 1024px){
 position: static;
+padding: 0;
+.title-section{
+  padding: 0;
+}
 }
 .title-section {
     font-size: 1.5rem;
+    padding: 0 60px;
     margin-bottom: 2rem;
     margin-top: 2rem;
     span {

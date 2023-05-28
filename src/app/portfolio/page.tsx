@@ -14,13 +14,13 @@ export default function PortifolioPage() {
       <h2 className="title-section main">
         Meu <span>Portfólio</span>
       </h2>
-      <div className="filter-portfolio">
+      {/* <div className="filter-portfolio">
         <button>ReactJS</button>
         <button>Angular</button>
         <button>Express</button>
         <button>NestJS</button>
         <button>SpringBoot</button>
-      </div>
+      </div> */}
 
       <div className="display-projects">
         {projects.map((project: any) => (
